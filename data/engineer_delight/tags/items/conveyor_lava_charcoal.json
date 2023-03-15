@@ -1,0 +1,39 @@
+{
+    "values": [
+        "smoker",
+        "cartography_table",
+        "fletching_table",
+        "smithing_table",
+        "beehive",
+        "barrel",
+        "lectern",
+        "bookshelf",
+        "wooden_axe",
+        "wooden_pickaxe",
+        "jukebox",
+        "crafting_table",
+        "chest",
+        "note_block",
+        "trapped_chest",
+        "chest_minecart",
+
+        "oak_fence",
+        "acacia_fence",
+        "dark_oak_fence",
+        "spruce_fence",
+        "birch_fence",
+        "jungle_fence",
+        "mangrove_fence",
+
+        "oak_fence_gate",
+        "acacia_fence_gate",
+        "dark_oak_fence_gate",
+        "spruce_fence_gate",
+        "birch_fence_gate",
+        "jungle_fence_gate",
+        "mangrove_fence_gate",
+
+        "#boats",
+        "#beds"
+    ]
+}

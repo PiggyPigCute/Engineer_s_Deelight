@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_ingot"
+      },
+      "title": "Engineer's Deelight",
+      "description": "Install the DataPack",
+      "background": "textures/block/beehive_end.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

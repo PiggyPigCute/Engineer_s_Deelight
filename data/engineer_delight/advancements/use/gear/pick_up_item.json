@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "nbt": "{display:{Name:'{\"color\":\"white\",\"text\":\"Gear\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function" :"engineer_delight:spinable/gear/pick_up"
+  }
+}

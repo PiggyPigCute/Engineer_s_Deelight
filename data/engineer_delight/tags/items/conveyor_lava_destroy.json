@@ -1,0 +1,32 @@
+{
+    "values": [
+        "#saplings",
+        "mangrove_roots",
+        "#leaves",
+        "grass",
+        "fern",
+        "dead_bush",
+        "seagrass",
+        "sea_pickle",
+        "#wool",
+        "#flowers",
+        "spore_blossom",
+        "kelp",
+        "hanging_roots",
+        "big_dripleaf",
+        "small_dripleaf",
+        "bamboo",
+        "snow",
+        "ice",
+        "snow_block",
+        "vine",
+        "lily_pad",
+        "hay_block",
+        "tall_grass",
+        "large_fern",
+        "wheat",
+        "dried_kelp_block",
+        "paper",
+        "dried_kelp"
+    ]
+}

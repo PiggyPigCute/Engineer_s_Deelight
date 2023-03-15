@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Harvester\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function" :"engineer_delight:spinable/harvester/pick_up"
+  }
+}

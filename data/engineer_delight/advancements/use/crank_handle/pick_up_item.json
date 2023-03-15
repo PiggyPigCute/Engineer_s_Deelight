@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{display:{Name:'{\"color\":\"white\",\"text\":\"Crank Handle\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function" :"engineer_delight:generators/crank_handle/pick_up"
+  }
+}

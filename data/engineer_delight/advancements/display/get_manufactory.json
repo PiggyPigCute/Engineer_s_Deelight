@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pig_spawn_egg",
+      "nbt": "{CustomModelData:625107}"
+    },
+    "title": "The theory of everything",
+    "description": "Craft the Manufactory to create all the othe machines",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "engineer_delight:display/get_gear",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pig_spawn_egg"
+            ],
+            "nbt": "{esd_item_manufactory:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

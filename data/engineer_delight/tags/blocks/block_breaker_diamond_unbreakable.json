@@ -1,0 +1,10 @@
+{
+    "values": [
+        "bedrock",
+        "command_block",
+        "barrier",
+        "structure_block",
+        "jigsaw",
+        "end_portal_frame"
+    ]
+}

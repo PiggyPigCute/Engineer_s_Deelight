@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pig_spawn_egg"
+         ],
+          "nbt": "{esd_item_waterwheal:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "engineer_delight:generators/waterwheal/place"
+  }
+}

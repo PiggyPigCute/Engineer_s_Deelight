@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "engineer_delight:bip"
+    }
+  }
+  

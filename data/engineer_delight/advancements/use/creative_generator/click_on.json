@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{CustomName:'{\"color\":\"white\",\"text\":\"Creative Generator\"}'}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "engineer_delight:generators/creative_generator/click_on"
+    }
+  }
+  

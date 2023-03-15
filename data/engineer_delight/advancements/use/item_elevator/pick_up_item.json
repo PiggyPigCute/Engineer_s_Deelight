@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{display:{Name:'{\"color\":\"white\",\"text\":\"Item Elevator\"}'}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function" :"engineer_delight:spinable/item_elevator/pick_up"
+    }
+  }

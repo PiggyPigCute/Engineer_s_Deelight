@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pig_spawn_egg",
+        "nbt": "{CustomModelData:625201}"
+      },
+      "title": "Convey to the world the Engineer's Love",
+      "description": "Use the Manufacturer to create Conveyors",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "engineer_delight:display/get_manufacturer",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:pig_spawn_egg"
+              ],
+              "nbt": "{esd_item_conveyor:1b}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

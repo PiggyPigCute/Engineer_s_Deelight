@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "engineer_delight:machine_frame"
+      }
+    }
+  },
+  "rewards": {
+    "function": "engineer_delight:craft/machine_frame"
+  }
+}

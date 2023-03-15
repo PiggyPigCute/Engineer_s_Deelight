@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pig_spawn_egg",
+      "nbt": "{CustomModelData:625000}"
+    },
+    "title": "Let's go to the aventure",
+    "description": "Start by crafting a gear",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "engineer_delight:display/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pig_spawn_egg"
+            ],
+            "nbt": "{esd_item_gear:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

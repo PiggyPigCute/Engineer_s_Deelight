@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:item_frame"
+      },
+      "title": "Manual Factory",
+      "description": "Spin gears with an item frame",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "engineer_delight:display/get_gear",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:item_frame",
+            "stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"color\":\"white\",\"text\":\"Gear\"}'}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "engineer_delight:spinable/gear/crank_handle/rotate"
+    }
+  }
+  

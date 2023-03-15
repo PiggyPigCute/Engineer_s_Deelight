@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ],
+            "nbt": "{display:{Name:'{\"color\":\"dark_gray\",\"text\":\"Reparator\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function" :"engineer_delight:spinable/reparator/pick_up"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{display:{Name:'{\"color\":\"white\",\"text\":\"Block Breaker\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function" :"engineer_delight:spinable/block_breaker/pick_up"
+  }
+}
