@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "flags": {
+              "is_sprinting": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "loot": [
+        "engineer_delight:i/blocks/axle"
+      ]
+    }
+  }
+  

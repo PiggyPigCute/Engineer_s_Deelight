@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "item_frame"
+                    ],
+                    "nbt": "{engineer_delight:{axle:1b}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "engineer_delight:blocks/axle/place/"
+    }
+}
