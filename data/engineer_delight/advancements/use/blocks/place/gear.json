@@ -4,13 +4,13 @@
         "trigger": "minecraft:item_used_on_block",
         "conditions": {
           "item": {
-            "nbt": "{engineer_delight:{geer:1b}}"
+            "nbt": "{engineer_delight:{gear:1b}}"
           }
         }
       }
     },
     "rewards": {
-      "function": "engineer_delight:blocks/place/geer/"
+      "function": "engineer_delight:blocks/place/gear/"
     }
   }
   

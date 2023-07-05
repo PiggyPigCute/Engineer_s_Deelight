@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.items.geer.tag",
+									"source": "data.items.gear.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -1,35 +1,6 @@
 Base: 625---
 
-Blocs (pig_spawn_egg)
-    Hors Class (6250--)
-        Gear Even           625000.1
-        Gear Odd            625002.3
 
-    Generateurs (6251--)
-        Waterweal           625100.1
-        Steam Engine        625102.3
-        Creative Generator  625104.5
-
-    Deplacement (6252--)
-        Conveyor            625200.1
-        Item Elevator       625202.3
-        Filtered Convoyer   625204.5
-
-    Machines (6253--)
-        Mannufacturer       625300.1
-        Grinder             625302.3
-        Compressor          625304.5
-        Block Breaker       625306.7
-        Stone Generator     625308.9
-        Harvester           625310.1
-        Large Hopper        625312.3
-        Golem Assembler     625314.5
-        Golem Disassembler  625316.7
-        Reparator           625318.9
-
-Items (command_blocks)
-    Outils (6250--)
-        Wrench              625000
-    
-    Ingredients (6251--)
-        Machine Frame       625100
+Item Frames
+    axle    625000
+    gear    625001
