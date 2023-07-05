@@ -3,15 +3,14 @@ say esd load
 
 
 # functions and schedules
-function engineer_delight:base/load_register
-
+function engineer_delight:base/register
+schedule function engineer_delight:base/sched/2t 2t replace
 
 
 # scores
 scoreboard objectives add engineer_delight.data dummy
 
-kill @e[type=marker]
-kill @e[type=item_display]
+
 
 
 

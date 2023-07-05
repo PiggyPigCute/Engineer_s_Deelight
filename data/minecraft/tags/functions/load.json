@@ -1,3 +1,5 @@
 {
-  "values": ["engineer_delight:base/load"]
+  "values": [
+    "#load:_private/load"
+  ]
 }

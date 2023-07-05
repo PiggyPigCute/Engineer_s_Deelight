@@ -1,0 +1,16 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+		"block": {}
+		}
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+		"block": {
+			"tag": "engineer_delight:check_break"
+		}
+		}
+	}
+]
