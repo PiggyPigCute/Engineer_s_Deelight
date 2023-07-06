@@ -2,5 +2,10 @@ Base: 625---
 
 
 Item Frames
-    axle    625000
-    gear    625001
+    axle            625000
+    gear            625001
+
+
+Barrels
+    creative gen    625000
+    

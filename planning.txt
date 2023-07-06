@@ -1,0 +1,23 @@
+
+            spin            work
+t = 0   2s 4s 8s 16s    2s 4s 8s 16s
+t = 1   2s
+t = 2   2s 4s           2s
+t = 3   2s
+t = 4   2s 4s 8s        2s 4s
+t = 5   2s
+t = 6   2s 4s           2s
+t = 7   2s
+t = 8   2s 4s 8s 16s    2s 4s 8s
+t = 9   2s
+t = 10  2s 4s           2s
+t = 11  2s
+t = 12  2s 4s 8s        2s
+t = 13  2s
+t = 14  2s 4s           2s
+t = 15  2s
+
+
+
+
+
