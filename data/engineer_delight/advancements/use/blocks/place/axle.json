@@ -4,7 +4,7 @@
         "trigger": "minecraft:item_used_on_block",
         "conditions": {
           "item": {
-            "nbt": "{engineer_delight:{axle:1b}}"
+            "nbt": "{ctc:{from:\"engineer_delight\",id:\"axle\"}}"
           }
         }
       }

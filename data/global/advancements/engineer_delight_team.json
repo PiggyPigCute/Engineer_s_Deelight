@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Engineer's Delight Team",
+		"description": "PiggyPig, Rignchen and ",
+		"icon": {
+			"item": "minecraft:iron_nugget"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
